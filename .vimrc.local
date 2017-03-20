@@ -1,0 +1,13 @@
+    if isdirectory(expand("~/.vim/bundle/taglist.vim"))
+        map <silent> tl :TlistToggle<cr>
+        let Tlist_Show_One_File = 1
+        let Tlist_Exit_OnlyWindow = 1
+    endif
+
+    set nofoldenable
+
+    let g:snips_author = "Yan Long <rafaelyim@qq.com>"
+    let g:DisableAutoPHPFolding = 1
+    let g:indent_guides_enable_on_vim_startup = 0
+    let g:pymode_folding = 0
+    let g:php_folding = 0
